@@ -69,6 +69,7 @@ body {
 }
 
 .article__details {
+  position: relative;
   display: flex;
   align-items: center;
   margin-top: 2rem;
@@ -102,6 +103,29 @@ body {
   border-radius: 50%;
   background-color: var(--color-light-grayish-blue);
   cursor: pointer;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.share__buttons {
+  position: absolute;
+  bottom: 3.5rem;
+  right: 0;
+  background-color: var(--color-very-dark-grayish-blue);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  z-index: 10;
 }
 
 footer {
