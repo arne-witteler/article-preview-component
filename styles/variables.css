@@ -6,6 +6,7 @@
   --color-white: hsl(0, 0%, 100%);
 
   --font-sans: "Manrope", sans-serif;
-  --font-weight-regular: 500;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
   --font-weight-bold: 700;
 }
