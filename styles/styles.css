@@ -126,15 +126,6 @@ body {
 
 .share__menu {
   display: none;
-  height: 58px;
-}
-
-.share__menu.share__menu--visible {
-  display: flex;
-}
-
-.share__menu {
-  display: none;
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
